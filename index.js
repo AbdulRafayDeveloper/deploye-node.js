@@ -6,6 +6,10 @@ app.get('/api/get', (req, res) => {
     res.send('Deployed on AWS Successfully!');
 });
 
+app.get('/api/get2', (req, res) => {
+    res.send('New Deployed on AWS Successfully!');
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
