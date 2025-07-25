@@ -7,7 +7,7 @@ app.get('/api/get', (req, res) => {
 });
 
 app.get('/api/get2', (req, res) => {
-    res.send('New Deployed on AWS Successfully!');
+    res.send({ messg: 'New Deployed on AWS Successfully!' });
 });
 
 app.listen(PORT, () => {
